@@ -76,7 +76,7 @@ $(document).ready(function(){
 
 if( $(window).width() > 767 ){
     var galleryHeight = $('#home-gallery').height();
-    $('#home-gallery').css({'min-height':home-gallery+"px"});
+    $('#home-gallery').css({"min-height":galleryHeight+"px"});
 
 }
 
