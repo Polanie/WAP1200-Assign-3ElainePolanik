@@ -71,6 +71,15 @@ $(document).ready(function(){
        Filter Gallery
        =================================== */
 
+// fix gallery from jumping around in catagory select
+
+
+if( $(window).width() > 767 ){
+    var galleryHeight = $('#home-gallery').height();
+    $('#home-gallery').css({'min-height':home-gallery+"px"});
+
+}
+
 
     $('#all-btn').click(function(){
         $('#filter-menu button').removeClass('active');

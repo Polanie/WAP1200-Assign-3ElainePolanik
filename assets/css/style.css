@@ -45,7 +45,7 @@ body {
     max-width: 900px;
 }
 
-#sl-left:hover, #sl-right:hover {
+#sl-left, #sl-right{
     font-size: 60px;
     color: rgba(0, 0, 0, 0.5);
     width: 60px;
@@ -58,11 +58,11 @@ body {
 }
 
 
-#sl-left {
+#sl-left:hover {
     left: 25px;
 }
 
-#sl-right {
+#sl-right:hover  {
     right: 25px;
 }
 
